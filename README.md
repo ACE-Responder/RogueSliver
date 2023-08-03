@@ -1,6 +1,8 @@
 # RogueSliver
 A suite of tools to disrupt campaigns using the Sliver C2 framework.
 
+This tool, its uses, and how it was created will be covered in depth on [ACEResponder.com](https://aceresponder.com)
+
 ![](https://assets.aceresponder.com/github/roguesliver-01.png)
 
 **This tool is for educational purposes only.**
