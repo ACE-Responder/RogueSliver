@@ -90,10 +90,9 @@ def cmdline_args():
 if __name__ == '__main__':
   args = cmdline_args()
 
-  c = 0
+  print('[yellow]\[i][/yellow] Sending junk.')
+
   while True:
     register_beacon(args.ip,args.port)
-    c+=1
-    if c == 50:
-      break
+    register_session(args.ip,args.port)
   
