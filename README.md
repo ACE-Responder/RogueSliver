@@ -1,6 +1,8 @@
 # RogueSliver
 A suite of tools to disrupt campaigns using the Sliver C2 framework.
 
+![](https://assets.aceresponder.com/github/roguesliver-01.png)
+
 **This tool is for educational purposes only.**
 
 |||
@@ -23,8 +25,9 @@ python -m pip install -r requirements.txt
 ```
 ./BeaconFlood.py 127.0.0.1 8888
 ```
-
+![](https://assets.aceresponder.com/github/beaconflood.png)
 ## HijackBeacon
 ```
 ./HijackBeacon.py 2aa18069-652a-4484-8ebe-abae87ebc73e 127.0.0.1 8888 -r
 ```
+![](https://assets.aceresponder.com/github/hijackbeacon.png)
