@@ -1,6 +1,8 @@
 # RogueSliver
 A suite of tools to disrupt campaigns using the Sliver C2 framework.
 
+**This tool is for educational purposes only.**
+
 |||
 | --- | --- |
 | ExtractCerts.py | Extract mtls certificates and private keys from a minidump of an infected process. Also extracts the implant ID and mtls endpoints. |
