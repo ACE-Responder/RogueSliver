@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import socket, ssl
 from RogueSliver.consts import msgs
 import random
