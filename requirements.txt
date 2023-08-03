@@ -1,0 +1,4 @@
+minidump
+cryptography
+rich
+protobuf==3.20.*
