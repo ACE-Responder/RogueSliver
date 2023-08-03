@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import socket, ssl
 import os
 from RogueSliver.consts import msgs
