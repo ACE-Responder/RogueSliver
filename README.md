@@ -10,6 +10,7 @@ This tool, its uses, and how it was created will be covered in depth on [ACEResp
 |||
 | --- | --- |
 | ExtractCerts.py | Extract mtls certificates and private keys from a minidump of an infected process. Also extracts the implant ID and mtls endpoints. |
+| CrashSliverServer.py | Takes advantage of a resource exhaustion vulnerability in the Sliver mtls endpoint. Running this with mtls certs will crash a remote Sliver server. |
 | BeaconFlood.py | Flood a Sliver C2 server with beacon and session registrations. Requires mtls certificates. |
 | HijackBeacon.py | Hijack a beacon with a valid implant ID and certificates. Log your attacker's requests and send them some memes. Can also create a new false beacon with just an mtls cert. |
 
@@ -23,11 +24,19 @@ python -m pip install -r requirements.txt
 ./ExtractCerts.py sliver.DMP
 ```
 
+## CrashSliverServer.py
+```
+./CrashSliverServer.py 127.0.0.1 8888
+```
+
+![](https://assets.aceresponder.com/github/crashsliver.png)
+
 ## BeaconFlood.py
 ```
 ./BeaconFlood.py 127.0.0.1 8888
 ```
 ![](https://assets.aceresponder.com/github/beaconflood.png)
+
 ## HijackBeacon
 ```
 ./HijackBeacon.py 2aa18069-652a-4484-8ebe-abae87ebc73e 127.0.0.1 8888 -r
